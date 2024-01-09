@@ -25,9 +25,6 @@ public class CricketUpdateConfig {
 
         Elements elements = document.select("div.ds-w-full").select("div.ds-px-4.ds-py-3");
 
-        for (Element element: elements) {
-
-        }
         return new ArrayList<>();
     }
 
